@@ -12,7 +12,7 @@ Dom0 event channel state without DomU
 //ECS_IPI: 6
 
 //共有225个event channel被使用(和下面225个irq对应)
-//共有50个4(ECS_PIRQ), 1个1(ECS_RESERVED), 2个3(ECS_INTERDOMAIN), 51个5(ECS_VIRQ)
+//共有50个4(ECS_PIRQ), 1个1(ECS_RESERVED), 2个3(ECS_INTERDOMAIN), 51个5(ECS_VIRQ), 140个6(ECS_IPI)
 
 (XEN) event bucket 0 event channel 0 state is 1
 (XEN) event bucket 0 event channel 1 state is 5
