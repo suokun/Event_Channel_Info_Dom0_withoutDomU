@@ -274,6 +274,9 @@ Dom0 event channel state without DomU
 //interrupt line of dom 0 without any dom U
 $ cat /proc/interrupts
 
+//p6p1 is 10Gbps ethernet port
+//em1, em2 are 1Gbps ethernet port
+
             CPU0       CPU1       CPU2       CPU3       CPU4       CPU5       CPU6       CPU7       CPU8       CPU9       CPU10      CPU11      CPU12      CPU13      CPU14      CPU15      CPU16      CPU17      CPU18      CPU19      CPU20      CPU21      CPU22      CPU23      
    3:          1          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0  xen-pirq-ioapic-edge
    4:          1          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0  xen-pirq-ioapic-edge
